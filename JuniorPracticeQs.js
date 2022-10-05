@@ -1,7 +1,11 @@
 // add Apple at the beginning of fruits
 // remove Lemon
 // add more fruits and sort them
-var fruits = ['Pineapple', 'Lemon', 'Orange'];
+const fruits = ['Pineapple', 'Lemon', 'Orange'];
+fruits.unshift('Apple');
+fruits.splice(2, 1);
+fruits.push('Banana', 'Pear', 'Grapefruit');
+fruits.sort();
 
 // use integers to their absolute values
 var integers = [1,-0,9,-8,3];
